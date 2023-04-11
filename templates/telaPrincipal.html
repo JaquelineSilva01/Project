@@ -7,19 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../static/css/principal.css">
     <title>Bem-Vindo</title>
+
+    <script>
+    function openWin() {
+      window.open("http://localhost:63342/Project/templates/index.html?_ijt=o1ejl2eus7gt7g5i2lhdvnjr1f&_ij_reload=RELOAD_ON_SAVE");
+    }
+    </script>
 </head>
 <body>
 
-    <h1>
+    <h1 class="tituloPrincipal">
         Seja Bem-vindo ao nosso gerenciador de informações
     </h1>
 
      <figure>
-            <img src="../imagens/terra.jpeg" width="800" height="400">
-            <figcaption>
-                Sobre Desmatamento
-            </figcaption>
-        </figure>
+            <img src="../imagens/terra.jpeg" width="1000" height="600">
+     </figure>
+
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+    style="background-color:#D94A38;width:150px;height:20px;padding:30px;margin:70px;">
+    Vamos salvar</div>
+
+    <script>
+    function mOver(obj) {
+      obj.innerHTML = "O planeta terra"
+    }
+
+    function mOut(obj) {
+      obj.innerHTML = "Vamos salvar"
+    }
+    </script>
+
+    <form>
+  <input type="button" value="Avançar" onclick="openWin()" >
+    </form>
 
 </body>
 </html>
