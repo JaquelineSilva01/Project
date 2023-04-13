@@ -25,3 +25,8 @@ p {
   border: 3px solid gray;
   padding: 8px;
 }
+
+form {
+  text-align: center;
+  font-size: 30px;
+}

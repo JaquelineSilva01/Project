@@ -1,11 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/css/principal.css">
+    <link rel="stylesheet" href="../static/css/telaInicial.css">
     <title>Bem-Vindo</title>
 
     <script>
@@ -14,32 +11,30 @@
     }
     </script>
 </head>
-<body>
+<body style="background-image: url('../imagens/img_1.png');">
 
     <h1 class="tituloPrincipal">
         Seja Bem-vindo ao nosso gerenciador de informações
     </h1>
 
-     <figure>
-            <img src="../imagens/terra.jpeg" width="1000" height="600">
-     </figure>
-
-        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
-    style="background-color:#D94A38;width:150px;height:20px;padding:30px;margin:70px;">
-    Vamos salvar</div>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+    style="background-color:#cc3300;text-align:center;font-size: 40px;width:600px;height:40px;padding:40px;margin-right: 80px;margin-left: 380px;">
+    Click em mim</div>
 
     <script>
-    function mOver(obj) {
-      obj.innerHTML = "O planeta terra"
+    function mDown(obj) {
+      obj.style.backgroundColor = "#00cc00";
+      obj.innerHTML = "Vamos proteger as florestas";
     }
 
-    function mOut(obj) {
-      obj.innerHTML = "Vamos salvar"
+    function mUp(obj) {
+      obj.style.backgroundColor="#663300";
+      obj.innerHTML="Click e segure";
     }
     </script>
 
-    <form>
-  <input type="button" value="Avançar" onclick="openWin()" >
+    <form class="botao">
+    <input type="button" value="Avançar" onclick="openWin()" >
     </form>
 
 </body>
