@@ -1,17 +1,20 @@
 <!doctype html>
+{% load static %}
+{% block 'front' %}
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/telaInicial.css">
+    <link rel="stylesheet" href="{% static 'front/css/telaInicial.css' %}">
     <title>Bem-Vindo</title>
+
 
     <script>
     function openWin() {
-      window.open("http://localhost:63342/Project/templates/index.html?_ijt=o1ejl2eus7gt7g5i2lhdvnjr1f&_ij_reload=RELOAD_ON_SAVE");
+      window.open("http://127.0.0.1:8000/app/inicio/");
     }
     </script>
 </head>
-<body style="background-image: url('../imagens/img_1.png');">
+<body style="background-image: url('{% static 'front/imagens/img_1.png' %}');">
 
     <h1 class="tituloPrincipal">
         Seja Bem-vindo ao nosso gerenciador de informações
@@ -24,7 +27,7 @@
     <script>
     function mDown(obj) {
       obj.style.backgroundColor = "#00cc00";
-      obj.innerHTML = "Vamos proteger as florestas";
+      obj.innerHTML = "Sobrevivemos graças a natureza e nunca é tarde demais para fazermos a nossa parte.";
     }
 
     function mUp(obj) {
@@ -39,3 +42,5 @@
 
 </body>
 </html>
+
+{% endblock %}

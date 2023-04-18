@@ -1,5 +1,6 @@
 <!doctype html>
-
+{% load static %}
+{% block 'front' %}
 <html>
 <head>
     <meta charset="UTF-8">
@@ -7,24 +8,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/css/principal.css">
+
+            <link rel="stylesheet" href="{% static 'front/css/principal.css' %}">
+
     <title>Resumo sobre: Desmatamento e Queimadas</title>
      <script>
     function openWin() {
-      window.open("http://localhost:63342/Project/templates/telaPrincipal.html?_ijt=6mub2addk9fhp97drr952jc455&_ij_reload=RELOAD_ON_SAVE");
+      window.open("http://127.0.0.1:8000/app/telaprincipal/");
     }
     </script>
+
+
 </head>
 
-    <body>
+    <body
+            style="
+   background-color: #66CDAA;
+   font-family: Georgia;}"
+    >
+
         <h1>
             Resumo sobre: Desmatamento e Queimadas
         </h1>
 
         <ul>
-            <li class="topicos"><a href="http://localhost:63342/Project/templates/causas.html?_ijt=4ccoj21jdjanqd0f933ugaegku&_ij_reload=RELOAD_ON_SAVE">Causas</a></li>
-            <li class="topicos"><a href="http://localhost:63342/Project/templates/consequencias.html?_ijt=4ccoj21jdjanqd0f933ugaegku&_ij_reload=RELOAD_ON_SAVE">Consequencias</a></li>
-            <li class="topicos"><a href="http://localhost:63342/Project/templates/solucoes.html?_ijt=4ccoj21jdjanqd0f933ugaegku&_ij_reload=RELOAD_ON_SAVE">Soluções</a></li>
+            <li class="topicos"><a href="{% url 'causas' %}">Causas</a></li>
+            <li class="topicos"><a href="{% url 'consequencias' %}">Consequencias</a></li>
+            <li class="topicos"><a href="{% url 'solucoes' %}">Soluções</a></li>
         </ul>
 
         <h2>
@@ -32,7 +42,7 @@
         </h2>
 
         <figure>
-            <img src="../imagens/desmatação.jpeg" width="800" height="400">
+            <img src="{% static 'front/imagens/desmatação.jpeg' %}" width="800" height="400">
             <figcaption>
                 Sobre Desmatamento
             </figcaption>
@@ -49,7 +59,7 @@
         </h2>
 
         <figure>
-            <img src="../imagens/queimadas.jpeg" width="800" height="400">
+            <img src="{% static 'front/imagens/queimadas.jpeg' %}" width="800" height="400">
             <figcaption>
                 Sobre Queimadas
             </figcaption>
@@ -65,9 +75,121 @@
             </p>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
+    <title>Posts</title>
+        <div class="form-container">
+
+
+            <ul style="list-style:none; text-align:center;">
+                {% for post in posts %}
+
+                    <li class="form">
+                        <span><b>Autor:</b>{{ post.autor }} </span>
+                        <span><b>Título:</b>{{ post.titulo }}</span>
+                        <br>
+                        <span><b>Comemtário:</b>{{ post.comentario }}</span>
+                        <br>
+                        <span><b>Data:</b>{{ post.data }}</span>
+                        <br>
+                        <button class="btn btn-primary btn-block mb-3 w-20"><a class="nav-link" href="{% url 'editar' post.id %}">Alterar</a></button>
+                    </li>
+                    {% if not forloop.last %}
+                        <hr class="linha-horizontal">
+                    {% endif %}
+                {% empty %}
+                    <li>Sem Posts</li>
+                {% endfor %}
+            </ul>
+
+
+        </div>
+
+
+    <style>
+        body{
+            background-color:rgb(236, 170, 48);
+            margin: 0;
+
+        }
+        .bloco-1 {
+            font-size: 16px;
+            background-color: white;
+            text-align: center;
+            height: 50px;
+            line-height: 50px; /* valor igual à altura definida */
+
+        }
+        .app-name {
+            font-size: 35px;
+        }
+
+        .form {
+            font-size: 20px;
+        }
+
+    .form-container {
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px auto; /* Centraliza o bloco na página */
+        margin-left: 100px; /* Define a largura do bloco */
+        margin-right: 100px;
+        padding: 20px;
+    }
+    </style>
+
+
         <form>
             <input type="button" value="Voltar a Tela Inicial" onclick="openWin()" >
         </form>
 
+
+
+
+<div  class="container mb-1 col-sm-5">
+  <h1 class="text-center mb-3">Adicionar Post</h1>
+  <div class="d-flex justify-content-center ">
+
+    <form class="form-control " name="myform" action="{% url 'newpost' %}"   method="POST">{% csrf_token %}
+
+
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+            <input type="text" id="titulo" name="title" class="form-control" placeholder="Título"/>
+
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="coment" name="coment" class="form-control" placeholder="Comentário" />
+        </div>
+
+        <!-- Repeat Password input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="autor" name="autor" class="form-control" placeholder="Autor" />
+
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-3 w-100">Publicar</button>
+      </form>
+
+    <style>
+        body{
+            background-color:rgb(236, 170, 48);
+            margin: 0;
+        }
+        .bloco-1 {
+            background-color: white;
+            border-radius: 10px;
+            padding: 120px;
+
+        }
+
+    </style>
+  </div>
+</div>
+
+
     </body>
 </html>
+
+{% endblock %}

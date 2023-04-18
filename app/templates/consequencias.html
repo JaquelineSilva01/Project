@@ -1,15 +1,17 @@
 <!doctype html>
+{% load static %}
+{% block 'front' %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" href="../static/css/consequencias.css">
+     <link rel="stylesheet" href="{% static 'front/css/consequencias.css' %}">
     <title>Consequencias</title>
      <script>
     function openWin() {
-      window.open("http://localhost:63342/Project/templates/index.html?_ijt=o1ejl2eus7gt7g5i2lhdvnjr1f&_ij_reload=RELOAD_ON_SAVE");
+      window.open("http://127.0.0.1:8000/app/inicio/");
     }
     </script>
 </head>
@@ -45,3 +47,5 @@
 
     </body>
 </html>
+
+{% endblock %}
