@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20f1464e-b19d-4349-aefb-ce646b792dc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/desmatação.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/desmatação.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/queimadas.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/queimadas.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagens/terra.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/terra.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/causas.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/causas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/consequencias.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/consequencias.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/solucoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/solucoes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/telaInicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/telaInicial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/causas.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/causas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/consequencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/consequencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/solucoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/solucoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/telaPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/telaPrincipal.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OTngkPIbIS8LOMWGLSJIsOTfIy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/mc017/Trabalho WEB/Project/Project",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\129860\Downloads\certificado\Project\templates\static\front" />
+      <recent name="C:\Users\129860\Downloads\certificado\Project\templates\static" />
+      <recent name="C:\Users\129860\Downloads\certificado\Project\app\templates" />
+      <recent name="C:\Users\129860\Downloads\certificado\Project\templates" />
+      <recent name="C:\Users\129860\Downloads\certificado\Project\app\templates\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20f1464e-b19d-4349-aefb-ce646b792dc5" name="Changes" comment="" />
+      <created>1681593552836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681593552836</updated>
+    </task>
+    <servers />
+  </component>
+</project>
