@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f1464e-b19d-4349-aefb-ce646b792dc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/desmatação.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/desmatação.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/queimadas.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/queimadas.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagens/terra.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/imagens/terra.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/causas.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/causas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/consequencias.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/consequencias.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/solucoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/solucoes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/telaInicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static/front/css/telaInicial.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/causas.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/causas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/consequencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/consequencias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/solucoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/solucoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/telaPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/telaPrincipal.html" afterDir="false" />
-    </list>
+    <list default="true" id="20f1464e-b19d-4349-aefb-ce646b792dc5" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +55,32 @@
       <option name="presentableId" value="Default" />
       <updated>1681593552836</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1681848022702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848022702</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1681848031000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848031000</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1681848307062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848307062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
